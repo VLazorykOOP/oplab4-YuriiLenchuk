@@ -2,5 +2,5 @@
 GO
 UPDATE GraphicAdapters
 SET Type = @Type, Manufacturer = @Manufacturer, Memory = @Memory
-WHERE AdapterIF = 1;
+WHERE AdapterId = 1;
 GO
